@@ -1,0 +1,198 @@
+body {
+    background-image: url(https://ih1.redbubble.net/image.106520130.7160/pp,550x550.u2.jpg); 
+    background-size: cover;
+    height: 100%;
+}
+#homeLogo {
+    width: 120px;
+    height: 60px;
+}
+.jumbotron {
+    background-size: cover;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+    margin-top: 30px;
+    overflow: auto;
+    background-color: rgba(255, 255, 255, 0.377);
+}
+#qTitle{
+    color: gray;
+}
+.buttonOptions {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 420px;
+    height: 80px;
+    color: gray;
+    font-size: 18px;
+}
+#option1 {
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+#option2 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+#option3 {
+    margin-right: 40px;
+    margin-bottom: 1px;
+}
+#option4 {
+    margin-bottom: 1px;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+#check1, #check2, #check3, #check4, #x1, #x2, #x3, #x4 {
+    display: none;
+    margin-right: 8px;
+}
+#gameOver {
+    display: none;
+}
+#gameOvertitle {
+    color: gray;
+    font-size: 44px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+#displayScore {
+    color: gray;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+#form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 335px;
+    margin-bottom: 120px;
+}
+#circleTimer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90px;
+}
+svg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#option1Div, #option2Div, #option3Div, #option4Div {
+    float: left;
+}
+#div12, #div34 {
+    width: 880px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media only screen and (max-width: 1200px) {
+    #qTitle {
+        font-size: 36px;
+    }
+    #div12, #div34 {
+        width: 750px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #option1 {
+        margin-top: 20px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+    #option2 {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    #option3 {
+        margin-right: 30px;
+        margin-bottom: 1px;
+    }
+    #option4 {
+        margin-bottom: 1px;
+    }
+    .buttonOptions {
+        font-family: Arial, Helvetica, sans-serif;
+        width: 360px;
+        height: 70px;
+        color: gray;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    #qTitle {
+        font-size: 36px;
+    }
+
+    #div12, #div34 {
+        width: 580px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #option1 {
+        margin-top: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    #option2 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #option3 {
+        margin-right: 20px;
+        margin-bottom: 1px;
+    }
+    #option4 {
+        margin-bottom: 1px;
+    }
+    .buttonOptions {
+        font-family: Arial, Helvetica, sans-serif;
+        width: 280px;
+        height: 70px;
+        color: gray;
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 822px) {
+    #qTitle {
+        font-size: 24px;
+    }
+    #div12, #div34 {
+        width: 280px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #option1 {
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    #option2 {
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    #option3 {
+        margin-right: 0px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    #option4 {
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    .buttonOptions {
+        font-family: Arial, Helvetica, sans-serif;
+        width: 280px;
+        height: 70px;
+        color: gray;
+        font-size: 18px;
+    }
+    #option1Div, #option2Div, #option3Div, #option4Div {
+        float: none;
+        clear: all;
+    }
+}

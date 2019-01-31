@@ -1,0 +1,128 @@
+body {
+    background-image: url(https://ih1.redbubble.net/image.106520130.7160/pp,550x550.u2.jpg); 
+    background-size: cover;
+    height: 100%;
+}
+.jumbotron {
+    width: 80%;
+    height: 570px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    background-color: rgba(255, 255, 255, 0.377);
+    padding-top: 30px;
+}
+#playButton{
+    width: 160px;
+    height: 100px;
+    font-size: 42px;
+}
+#buttonDiv{
+    width: 160px;
+    margin-left: auto;
+    margin-right: auto;  
+    margin-top: 15px;
+}
+#logodiv {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logo {
+    height: 200px;
+    width: 400px;
+}
+#title{
+    font-size: 72px;
+    color: gray;
+    margin-bottom: 90px;
+    margin-top: 30px;
+}
+#links {
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 579.6px;
+}
+#instructions, #leaderboard, #source {
+    margin-right: 60px;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0);
+    color: gray;
+    border: none;
+}
+#submitaQuestion {
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0);
+    color: gray;
+    border: none;
+}
+#instructions:hover, #leaderboard:hover, #source:hover, #returnHome:hover, #submitaQuestion:hover {
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(87, 87, 87);
+}
+p {
+    text-align: center;
+    color: gray;
+    font-size: 22px;
+}
+h2 {
+    text-align: center;
+    color: gray;
+    font: 36px;
+    margin-bottom: 70px;
+    margin-top: 60px;
+}
+#returnHome {
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0);
+    color: gray;
+    border: none;
+    text-align: center;
+}
+#returnHomediv {
+    width: 89px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+#instructionsDiv, #leaderboardDiv, #sourceDiv, #submitDiv {
+    float: left;
+}
+
+@media only screen and (max-width: 825px) {
+    #instructions, #leaderboard, #source {
+        margin-right: 0px;
+    }
+    #instructionsDiv, #leaderboardDiv, #sourceDiv {
+        clear: all;
+        float: none;
+        margin-bottom: 25px;
+    }
+    #submitDiv {
+        clear: all;
+        float: none;
+        margin-bottom: 1px;
+    }
+    #links {
+        width: auto;
+    }
+    .jumbotron {
+        height: 100%;
+    }
+}
+@media only screen and (max-width: 522px) {
+
+    .jumbotron {
+        height: 100%;
+        width: 95%;
+    }
+    #logodiv {
+        width: 300px;
+    }
+    #logo {
+        height: 150px;
+        width: 300px;
+    }
+}

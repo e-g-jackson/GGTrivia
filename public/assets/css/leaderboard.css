@@ -1,0 +1,76 @@
+body {
+    background-image: url(https://ih1.redbubble.net/image.106520130.7160/pp,550x550.u2.jpg); 
+    background-size: cover;
+    height: 100%;
+}
+#homeLogo {
+    width: 120px;
+    height: 60px;
+}
+.jumbotron {
+    background-size: cover;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.377);
+    height: 600px;
+    overflow: auto;
+    padding-top: 5px;
+}
+.table {
+    color: rgb(83, 83, 83);
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#logodiv {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logo {
+    height: 200px;
+    width: 400px;
+}
+#links {
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#homeBtn {
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0);
+    color: gray;
+    border: none;
+    text-align: center;
+}
+#homeBtn:hover, #homeBtn:link, #homeBtn:visited {
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(87, 87, 87);
+}
+#homeBtn:active {
+    color: #444444;
+}
+@media only screen and (max-width: 580px) {
+    .jumbotron {
+        width: 95%;
+    }
+    #logodiv {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #logo {
+        height: 150px;
+        width: 300px;
+    }
+}
